@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		3B3A17C01C23EFC800D2DADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A17BF1C23EFC800D2DADB /* main.m */; };
 		3B3A17C31C23EFC800D2DADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A17C21C23EFC800D2DADB /* AppDelegate.m */; };
-		3B3A17C61C23EFC800D2DADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A17C51C23EFC800D2DADB /* ViewController.m */; };
-		3B3A17C91C23EFC800D2DADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A17C71C23EFC800D2DADB /* Main.storyboard */; };
 		3B3A17CB1C23EFC800D2DADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A17CA1C23EFC800D2DADB /* Assets.xcassets */; };
 		3B3A17CE1C23EFC800D2DADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A17CC1C23EFC800D2DADB /* LaunchScreen.storyboard */; };
+		3B3A18171C23FE5C00D2DADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A18161C23FE5C00D2DADB /* ViewController.m */; };
+		3B3A181D1C23FE6600D2DADB /* KYBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A18191C23FE6600D2DADB /* KYBubbleTransition.m */; };
+		3B3A181E1C23FE6600D2DADB /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A181B1C23FE6600D2DADB /* BlueViewController.m */; };
+		3B3A181F1C23FE6600D2DADB /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A181C1C23FE6600D2DADB /* BlueViewController.xib */; };
+		3B3A18211C23FE7100D2DADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18201C23FE7100D2DADB /* Main.storyboard */; };
+		3B3A182F1C23FE8400D2DADB /* bubble-blue-normal-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */; };
+		3B3A18301C23FE8400D2DADB /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18231C23FE8400D2DADB /* Contents.json */; };
+		3B3A18311C23FE8400D2DADB /* bubble-orange-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18251C23FE8400D2DADB /* bubble-orange-hi.png */; };
+		3B3A18321C23FE8400D2DADB /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18261C23FE8400D2DADB /* Contents.json */; };
+		3B3A18331C23FE8400D2DADB /* bubble-red-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18281C23FE8400D2DADB /* bubble-red-hi.png */; };
+		3B3A18341C23FE8400D2DADB /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A18291C23FE8400D2DADB /* Contents.json */; };
+		3B3A18351C23FE8400D2DADB /* bubble-yellow-dark-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A182B1C23FE8400D2DADB /* bubble-yellow-dark-hi.png */; };
+		3B3A18361C23FE8400D2DADB /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A182C1C23FE8400D2DADB /* Contents.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,25 @@
 		3B3A17BF1C23EFC800D2DADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B3A17C11C23EFC800D2DADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B3A17C21C23EFC800D2DADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B3A17C41C23EFC800D2DADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B3A17C51C23EFC800D2DADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B3A17C81C23EFC800D2DADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B3A17CA1C23EFC800D2DADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3A17CD1C23EFC800D2DADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3A17CF1C23EFC800D2DADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3A18151C23FE5C00D2DADB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B3A18161C23FE5C00D2DADB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B3A18181C23FE6600D2DADB /* KYBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYBubbleTransition.h; sourceTree = "<group>"; };
+		3B3A18191C23FE6600D2DADB /* KYBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYBubbleTransition.m; sourceTree = "<group>"; };
+		3B3A181A1C23FE6600D2DADB /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		3B3A181B1C23FE6600D2DADB /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		3B3A181C1C23FE6600D2DADB /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		3B3A18201C23FE7100D2DADB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-blue-normal-hi.png"; sourceTree = "<group>"; };
+		3B3A18231C23FE8400D2DADB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3B3A18251C23FE8400D2DADB /* bubble-orange-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-orange-hi.png"; sourceTree = "<group>"; };
+		3B3A18261C23FE8400D2DADB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3B3A18281C23FE8400D2DADB /* bubble-red-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-red-hi.png"; sourceTree = "<group>"; };
+		3B3A18291C23FE8400D2DADB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3B3A182B1C23FE8400D2DADB /* bubble-yellow-dark-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-yellow-dark-hi.png"; sourceTree = "<group>"; };
+		3B3A182C1C23FE8400D2DADB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,23 +84,69 @@
 			children = (
 				3B3A17C11C23EFC800D2DADB /* AppDelegate.h */,
 				3B3A17C21C23EFC800D2DADB /* AppDelegate.m */,
-				3B3A17C41C23EFC800D2DADB /* ViewController.h */,
-				3B3A17C51C23EFC800D2DADB /* ViewController.m */,
-				3B3A17C71C23EFC800D2DADB /* Main.storyboard */,
+				3B3A18151C23FE5C00D2DADB /* ViewController.h */,
+				3B3A18161C23FE5C00D2DADB /* ViewController.m */,
+				3B3A18181C23FE6600D2DADB /* KYBubbleTransition.h */,
+				3B3A18191C23FE6600D2DADB /* KYBubbleTransition.m */,
+				3B3A181A1C23FE6600D2DADB /* BlueViewController.h */,
+				3B3A181B1C23FE6600D2DADB /* BlueViewController.m */,
+				3B3A181C1C23FE6600D2DADB /* BlueViewController.xib */,
+				3B3A18201C23FE7100D2DADB /* Main.storyboard */,
 				3B3A17CA1C23EFC800D2DADB /* Assets.xcassets */,
 				3B3A17CC1C23EFC800D2DADB /* LaunchScreen.storyboard */,
 				3B3A17CF1C23EFC800D2DADB /* Info.plist */,
-				3B3A17BE1C23EFC800D2DADB /* Supporting Files */,
+				3B3A17BF1C23EFC800D2DADB /* main.m */,
+				3B3A182E1C23FE8400D2DADB /* Supporting Files */,
 			);
 			path = AnimationDemo;
 			sourceTree = "<group>";
 		};
-		3B3A17BE1C23EFC800D2DADB /* Supporting Files */ = {
+		3B3A18241C23FE8400D2DADB /* bubble_blue.imageset */ = {
 			isa = PBXGroup;
 			children = (
-				3B3A17BF1C23EFC800D2DADB /* main.m */,
+				3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */,
+				3B3A18231C23FE8400D2DADB /* Contents.json */,
+			);
+			path = bubble_blue.imageset;
+			sourceTree = "<group>";
+		};
+		3B3A18271C23FE8400D2DADB /* bubble_orange.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A18251C23FE8400D2DADB /* bubble-orange-hi.png */,
+				3B3A18261C23FE8400D2DADB /* Contents.json */,
+			);
+			path = bubble_orange.imageset;
+			sourceTree = "<group>";
+		};
+		3B3A182A1C23FE8400D2DADB /* bubble_red.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A18281C23FE8400D2DADB /* bubble-red-hi.png */,
+				3B3A18291C23FE8400D2DADB /* Contents.json */,
+			);
+			path = bubble_red.imageset;
+			sourceTree = "<group>";
+		};
+		3B3A182D1C23FE8400D2DADB /* bubble_yellow.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A182B1C23FE8400D2DADB /* bubble-yellow-dark-hi.png */,
+				3B3A182C1C23FE8400D2DADB /* Contents.json */,
+			);
+			path = bubble_yellow.imageset;
+			sourceTree = "<group>";
+		};
+		3B3A182E1C23FE8400D2DADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A18241C23FE8400D2DADB /* bubble_blue.imageset */,
+				3B3A18271C23FE8400D2DADB /* bubble_orange.imageset */,
+				3B3A182A1C23FE8400D2DADB /* bubble_red.imageset */,
+				3B3A182D1C23FE8400D2DADB /* bubble_yellow.imageset */,
 			);
 			name = "Supporting Files";
+			path = "../../Documents/study/study oc/AnimationDemo/AnimationDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +208,16 @@
 			files = (
 				3B3A17CE1C23EFC800D2DADB /* LaunchScreen.storyboard in Resources */,
 				3B3A17CB1C23EFC800D2DADB /* Assets.xcassets in Resources */,
-				3B3A17C91C23EFC800D2DADB /* Main.storyboard in Resources */,
+				3B3A181F1C23FE6600D2DADB /* BlueViewController.xib in Resources */,
+				3B3A18351C23FE8400D2DADB /* bubble-yellow-dark-hi.png in Resources */,
+				3B3A18331C23FE8400D2DADB /* bubble-red-hi.png in Resources */,
+				3B3A18321C23FE8400D2DADB /* Contents.json in Resources */,
+				3B3A18341C23FE8400D2DADB /* Contents.json in Resources */,
+				3B3A18211C23FE7100D2DADB /* Main.storyboard in Resources */,
+				3B3A18311C23FE8400D2DADB /* bubble-orange-hi.png in Resources */,
+				3B3A182F1C23FE8400D2DADB /* bubble-blue-normal-hi.png in Resources */,
+				3B3A18301C23FE8400D2DADB /* Contents.json in Resources */,
+				3B3A18361C23FE8400D2DADB /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B3A17C61C23EFC800D2DADB /* ViewController.m in Sources */,
+				3B3A18171C23FE5C00D2DADB /* ViewController.m in Sources */,
+				3B3A181E1C23FE6600D2DADB /* BlueViewController.m in Sources */,
 				3B3A17C31C23EFC800D2DADB /* AppDelegate.m in Sources */,
+				3B3A181D1C23FE6600D2DADB /* KYBubbleTransition.m in Sources */,
 				3B3A17C01C23EFC800D2DADB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B3A17C71C23EFC800D2DADB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B3A17C81C23EFC800D2DADB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B3A17CC1C23EFC800D2DADB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,6 +371,7 @@
 				3B3A17D41C23EFC800D2DADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

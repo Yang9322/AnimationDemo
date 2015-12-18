@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uAI-He-STK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="83r-8g-nre">
+            <objects>
+                <navigationController id="uAI-He-STK" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gUD-np-wIE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3Yg-80-MJs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gZ-CT-uDl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1061" y="214"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ4-MD-Fep">
+                                <rect key="frame" x="118" y="79" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="DKJ-mA-1DH"/>
+                                    <constraint firstAttribute="width" constant="70" id="eca-wF-eZB"/>
+                                </constraints>
+                                <state key="normal" title="Button" backgroundImage="bubble-blue-normal-hi.png"/>
+                                <connections>
+                                    <action selector="blueBtnCliked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wYG-fG-ZFp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Sa-ba-B9A">
+                                <rect key="frame" x="50" y="131" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="lRw-oG-6fZ"/>
+                                    <constraint firstAttribute="width" constant="60" id="rAi-x1-z6M"/>
+                                </constraints>
+                                <state key="normal" title="Button" backgroundImage="bubble-orange-hi.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBF-tP-Dt7">
+                                <rect key="frame" x="204" y="136" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="9CD-sd-yU1"/>
+                                    <constraint firstAttribute="width" constant="55" id="xUf-PB-cpT"/>
+                                </constraints>
+                                <state key="normal" title="Button" backgroundImage="bubble-yellow-dark-hi.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5E7-un-eLr">
+                                <rect key="frame" x="106" y="191" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="JGN-Ra-E1q"/>
+                                    <constraint firstAttribute="width" constant="60" id="whu-Tk-wk6"/>
+                                </constraints>
+                                <state key="normal" title="Button" backgroundImage="bubble-red-hi.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="af2-Hd-v3A">
+                                <rect key="frame" x="107" y="327" width="101" height="30"/>
+                                <state key="normal" title="TriggerButton1"/>
+                                <connections>
+                                    <action selector="trigger:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eHW-m6-rD6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5E7-un-eLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="90" id="4oX-CA-chh"/>
+                            <constraint firstItem="7Sa-ba-B9A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="E4A-EH-wzn"/>
+                            <constraint firstItem="uBF-tP-Dt7" firstAttribute="leading" secondItem="ZZ4-MD-Fep" secondAttribute="trailing" constant="16" id="O2e-Hp-0gr"/>
+                            <constraint firstItem="ZZ4-MD-Fep" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="OrB-4q-Xy5"/>
+                            <constraint firstItem="ZZ4-MD-Fep" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="102" id="SUs-7Z-RJY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uBF-tP-Dt7" secondAttribute="trailing" constant="41" id="WhE-DJ-KU5"/>
+                            <constraint firstItem="af2-Hd-v3A" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="58" id="X9Z-yi-AuC"/>
+                            <constraint firstItem="7Sa-ba-B9A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="cGK-D4-pnx"/>
+                            <constraint firstItem="af2-Hd-v3A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-2.5" id="hAE-mb-02c"/>
+                            <constraint firstItem="5E7-un-eLr" firstAttribute="top" secondItem="ZZ4-MD-Fep" secondAttribute="bottom" constant="42" id="xtK-xa-cwv"/>
+                            <constraint firstItem="uBF-tP-Dt7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="zHK-4B-8oV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WhE-DJ-KU5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="NgX-fP-azF"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="blueBtn" destination="ZZ4-MD-Fep" id="e19-MI-uLf"/>
+                        <outlet property="orrangeBtn" destination="7Sa-ba-B9A" id="Ron-nY-OYI"/>
+                        <outlet property="redButton" destination="5E7-un-eLr" id="rPq-9u-sdd"/>
+                        <outlet property="yellowBtn" destination="uBF-tP-Dt7" id="Jbf-Ze-kQQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-710" y="214"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bubble-blue-normal-hi.png" width="594" height="596"/>
+        <image name="bubble-orange-hi.png" width="600" height="600"/>
+        <image name="bubble-red-hi.png" width="600" height="600"/>
+        <image name="bubble-yellow-dark-hi.png" width="600" height="600"/>
+    </resources>
+</document>

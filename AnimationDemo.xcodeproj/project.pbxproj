@@ -42,7 +42,7 @@
 		3B3A181B1C23FE6600D2DADB /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 		3B3A181C1C23FE6600D2DADB /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
 		3B3A18201C23FE7100D2DADB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubble-blue-normal-hi.png"; path = "../../Documents/study/study oc/AnimationDemo/AnimationDemo/bubble_blue.imageset/bubble-blue-normal-hi.png"; sourceTree = "<group>"; };
+		3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-blue-normal-hi.png"; sourceTree = "<group>"; };
 		3B3A18231C23FE8400D2DADB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		3B3A18251C23FE8400D2DADB /* bubble-orange-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-orange-hi.png"; sourceTree = "<group>"; };
 		3B3A18261C23FE8400D2DADB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 				3B3A181B1C23FE6600D2DADB /* BlueViewController.m */,
 				3B3A181C1C23FE6600D2DADB /* BlueViewController.xib */,
 				3B3A18201C23FE7100D2DADB /* Main.storyboard */,
+				3B3A17CC1C23EFC800D2DADB /* LaunchScreen.storyboard */,
 				3B3A17CA1C23EFC800D2DADB /* Assets.xcassets */,
-				3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */,
 				3B3A17CF1C23EFC800D2DADB /* Info.plist */,
 				3B3A17BF1C23EFC800D2DADB /* main.m */,
 				3B3A182E1C23FE8400D2DADB /* Supporting Files */,
@@ -104,7 +104,7 @@
 		3B3A18241C23FE8400D2DADB /* bubble_blue.imageset */ = {
 			isa = PBXGroup;
 			children = (
-				3B3A17CC1C23EFC800D2DADB /* LaunchScreen.storyboard */,
+				3B3A18221C23FE8400D2DADB /* bubble-blue-normal-hi.png */,
 				3B3A18231C23FE8400D2DADB /* Contents.json */,
 			);
 			path = bubble_blue.imageset;
@@ -245,7 +245,6 @@
 				3B3A17CD1C23EFC800D2DADB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../../../../../../AnimationDemo/AnimationDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
